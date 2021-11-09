@@ -1,0 +1,21 @@
+
+
+.blu {
+    background-color: #4971FF;
+    color: #fff;
+}
+
+#prima-fascia{
+    height: 36px;
+    padding: 5px;
+    padding-right: 100px;
+}
+
+#prima-fascia a{
+    color: #fff;
+    text-decoration: none;
+}
+
+#prima-fascia a:hover{
+    color: #12cbc4;
+}
