@@ -1,36 +1,185 @@
 <!doctype html>
-<html lang="ita">
-    <head>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="it">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <!-- Bootstrap CSS -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="stili.css" rel="stylesheet">
 
-        <title>CFP Don Bosco</title>
-    </head>
-    <body>
+    <title>CFP Don Bosco</title>
+  </head>
+  <body>
 
-    <!-- Fascetta blu-->
-        <div id="prima-fascia" class="container-fluid blu">
-            <p class="text-end">
-                <a href="#">Home</a>
-                <a href="#">Chi siamo</a>
-                <a href="#">Dove siamo</a>
-                <a href="#">News</a>
-                <a href="#">Gallery</a>
-                <a href="#">Trasparenza</a>
-            </p>
-        </div>
+    <!-- Fascetta arancione-->
+    <div id="fascia-superiore" class="container-fluid blu">
+      <p class="text-end">
+        <a href="#">Home<span style="margin: 0 10px"></span></a> 
+        <a href="#">Chi siamo<span style="margin: 0 10px"></span></a> 
+        <a href="#">Dove siamo<span style="margin: 0 10px"></span></a> 
+        <a href="#">News<span style="margin: 0 10px"></span></a>
+        <a href="#">Gallery<span style="margin: 0 10px"></span></a>
+        <a href="#">Trasparenza</a>
+      </p>
+    </div>
+
+
+    <!-- Barra di navigazione bianca -->
+    <div id="fascia-navigazione" class="container">
+        <p>LOGO
+            <span class="float-end">
+                <a href="#">CARROZZERIA<span style="margin: 0 10px; margin-top: 10px;"></span></a>
+                <a href="#">ELETTRICO<span style="margin: 0 10px"></span></a>
+                <a href="#">ENERGIE<span style="margin: 0 10px"></span></a>
+                <a href="#">INFORMATICO<span style="margin: 0 10px"></span></a>
+                <a href="#">MECCANICO<span style="margin: 0 10px"></span></a>
+                <a href="#">MOTORISTICO</a>
+            </span>
+        </p>
+    </div>
 
     <!-- Carousel con frasi che girano -->
-        <div id="fascia-carousel" class="container-fluid arancione">
+    <div id="fascia-carousel" class="container-fluid blu">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="Immagini Carousel/Motoristico.jpg" class="d-block w-100" style="height: 367px; width: 1440px; top:127px;" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5> MOTORISTICO</h5>
+                  <p>L’operatore alla riparazione di veicoli a motore effettua riparazioni e manutenzione dei motori e dell'autoveicolo in tutte le sue parti.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="Immagini Carousel/Energie.jpg" class="d-block w-100" style="height: 367px; width: 1440px; top:127px;" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>ENERGIA</h5>
+                  <p>L’operatore energetico interviene nell'installazione, collaudo e manutenzione di impianti termici, idraulici, di condizionamento e fotovoltaici, con una particolare attenzione al risparmio energetico, anche grazie alla building automation.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="Immagini Carousel/Informatico.jpg" class="d-block w-100" style="height: 367px; width: 1440px; top:127px;" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>INFORMATICO</h5>
+                  <p>L’operatore informatico installa e configura hardware e software, esegue la manutenzione di sistemi, reti e terminali utente, fornisce assistenza tecnica, effettua l'elaborazione e la manutenzione di dati su archivi digitali.
 
+                    Con il quarto anno in Sistema Duale diventa tecnico sviluppatore di soluzioni software.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="Immagini Carousel/Meccanico.jpg" class="d-block w-100" style="height: 367px; width: 1440px; top:127px;" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>MECCANICO</h5>
+                  <p>L’operatore meccanico realizza lavorazioni al tornio, fresatrice e macchine utensili in generale. Partendo dal progetto realizzato con il CAD effettua la programmazione delle macchine a controllo numerico. Realizza saldature ad arco, TIG, MAG, taglio al plasma.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="Immagini Carousel/Elettrico.jpg" class="d-block w-100" style="height: 367px; width: 1440px; top:127px;" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>ELETTRICO</h5>
+                  <p>L’operatore elettrico installa ed effettua la manutenzione di impianti civili e industriali, sia con tecnologie tradizionali che automatizzate. Realizza la programmazione dei componenti domotici e dei controllori programmabili industriali.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="Immagini Carousel/Carrozzeria.jpg" class="d-block w-100" style="height: 367px; width: 1440px; top:127px;" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>CARROZZERIA</h5>
+                  <p>Effettua diagnosi e prove sui gas di scarico intervenendo per risolvere le anomalie.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+
+    <!-- Tre Card -->
+    <div id="fascia-card" class="container card-group">
+        <div class="card" style="width: 18rem; margin: 20px;">
+            <img src="Immagini Card/CorsoAutocad.jpg" class="card-img-top w-100" alt="...">
+            <div class="card-body" >
+              <h5 class="card-title">CORSO AUTOCAD 2D</h5>
+              <p class="card-text">Corso Autocad 2021 Online. Formazione Accreditata con 20 CFP Riconosciuti. Chiedi Info!</p>
+              <a href="#" class="btn btn-primary">Scopri di più</a>
+            </div>
         </div>
-    
-    
+        <div class="card" style="width: 18rem; margin: 20px;">
+            <img src="Immagini Card/FrontEnd.jpg" class="card-img-top" alt="imm">
+            <div class="card-body">
+              <h5 class="card-title">CORSO FRONT END DEVELOPER</h5>
+              <p class="card-text">Corso Professionale e Stage garantito in Azienda e nelle migliori Web Agency. Dati di dati.</p>
+              <a href="#" class="btn btn-primary">Scopri di più</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem; margin: 20px;">
+            <img src="Immagini Card/Konnex.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">CORSO KONNEX</h5>
+              <p class="card-text">Diventa un esperto abilitato in tecnica di progettazione domotica. Diventa un esperto tecnico domotica abilitato. Corso Accreditato. Docenti Qualificati.</p>
+              <a href="#" class="btn btn-primary">Scopri di più</a>
+            </div>
+        </div>  
+    </div>
 
+    <!-- Testo & quattro card -->
+    <div id="fascia-testocard" class="container-fluid blu2 card-group">
+        <h2 style="text-align: center; color:white">Al passo con i tempi e con don Bosco</h2>
+        <div class="card" style="width: 258px; margin: 20px;">
+            <img src="Immagini Card/ProggettoE.jpg" class="card-img-top w-100" alt="...">
+            <div class="card-body" >
+              <h5 class="card-title">PROGETTO EDUCATIVO</h5>
+              <p class="card-text">Un progetto chiaro per far crescere e diventare uomini. </p>
+              <a href="#" class="btn btn-primary">Scopri di più</a>
+            </div>
+        </div>
+        <div class="card" style="width: 258px; margin: 20px;">
+            <img src="Immagini Card/DidatticaAttiva.jpg" class="card-img-top" alt="imm">
+            <div class="card-body">
+              <h5 class="card-title">DIDATICA ATTIVA</h5>
+              <p class="card-text">Lezioni attive e coinvolgenti per favorire la partecipazione dei nostri allievi.</p>
+              <a href="#" class="btn btn-primary">Scopri di più</a>
+            </div>
+        </div>
+        <div class="card" style="width: 258px; margin: 20px;">
+            <img src="Immagini Card/Laboratorio.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">LABORATORIO</h5>
+              <p class="card-text">12 ore settimanali in laboratori tecnologicamente all'avanguardia per formare professionisti del settore.</p>
+              <a href="#" class="btn btn-primary">Scopri di più</a>
+            </div>
+        </div>  
+        <div class="card" style="width: 258px; margin: 20px;">
+            <img src="Immagini Card/ServiziA.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">SERVIZIO AL LAVORO</h5>
+              <p class="card-text">Facilitano l'incontro della domanda con l'offerta di lavoro.</p>
+              <a href="#" class="btn btn-primary">Scopri di più</a>
+            </div>
+        </div>  
+    </div>
+
+    <!-- Testo & quattro card -->
+    <div class="container">
+        <div class="row">        
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2790.0296844110962!2d12.569024315873698!3d45.63013997910335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477957021a6f5e37%3A0x2767632f6958496c!2sOratorio%20Don%20Bosco!5e0!3m2!1sit!2sit!4v1636469862463!5m2!1sit!2sit" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </div>
+    
     <!-- Java Script -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
